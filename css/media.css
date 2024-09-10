@@ -1,0 +1,95 @@
+/*для экранов до 1140px */
+@media all and (max-width: 1140px) {
+  .card {
+    width: calc(50% - 15px);
+  }
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .footer-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-col {
+    margin-bottom: 50px;
+  }
+  .footer-col:first-child {
+    margin-bottom: 0;
+  }
+}
+/*для экранов до 760px */
+@media all and (max-width: 760px) {
+  .header-title {
+    font-size: 32px;
+  }
+  .header-subtitle {
+    font-size: 14px;
+  }
+  .portfolio {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .portfolio-header {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .portfolio-card-wrapper {
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+    max-width: 530px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .card:nth-last-child(2) {
+    margin-bottom: 30px;
+  }
+  .card-link {
+    padding: 15px;
+  }
+  .card-img {
+    margin-bottom: 10px;
+  }
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .footer-copyright-name {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .footer-copyright p {
+    font-size: 14px;
+  }
+  .footer-icons p {
+    font-size: 14px;
+  }
+  .footer-contacts p {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .slaider-content {
+    margin: 0 20px;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .container-slaider {
+    flex-direction: column;
+    margin: 0 10px;
+    padding: 0;
+  }
+  #pictures {
+    width: 80%;
+    height: 250px;
+  }
+  .btn-slaider {
+    height: 50px;
+    font-size: 12px;
+    width: 250;
+  }
+}
